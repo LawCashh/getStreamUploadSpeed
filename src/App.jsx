@@ -7,7 +7,7 @@ function App() {
 
   return (
     <main
-      className={`flex items-center gap-10 flex-col mx-auto h-[100dvh] w-[100vw] mt-60`}
+      className={`flex items-center gap-10 flex-col mx-auto h-[calc(100dvh-15rem)] w-[100vw] mt-60`}
     >
       <h1>getStreamUploadSpeed</h1>
       <div className={`flex flex-col items-center gap-1`}>
